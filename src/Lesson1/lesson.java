@@ -1,7 +1,19 @@
 public class lesson{
 
 public static void main(String[] args) {
-        System.out.println("lesson1 OOP");
+
+        
+
+       
 }
 
+}
+
+//create a class 
+        //for every single student
+
+class Student{
+        int rno;
+        String name;
+        float marks;
 }
