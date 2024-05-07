@@ -16,4 +16,10 @@ class Student{
         int rno;
         String name;
         float marks;
+
+        Student(){
+                this.rno= 15;
+                this.name= "Kashif Ahmed";
+                this.marks= 99;
+        }
 }
