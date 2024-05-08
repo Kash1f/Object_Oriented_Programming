@@ -1,11 +1,11 @@
- 
+
 
 //initializing object using reference variable
 class Animal{
     int age;
     String color;
 }
-public class examples {
+public class refvar {
     public static void main(String[] args) {
         Animal spike = new Animal();
         spike.age = 2;
