@@ -1,4 +1,4 @@
-
+package Examples;
 
 //initializing object using method
 
@@ -20,7 +20,7 @@ class Animal{
 
 }
 
-public class methodexample {
+public class FirstExample{
 
     public static void main(String[] args) {
         Animal spike = new Animal();
