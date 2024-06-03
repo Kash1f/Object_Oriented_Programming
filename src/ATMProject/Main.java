@@ -60,7 +60,7 @@ class ATM {
         Scanner sc = new Scanner(System.in);
         float amount = sc.nextFloat(); // Entered amount will be stored in amount variable
 
-        if (amount > Balance) {
+        if(amount > Balance) {
             System.out.println("Insufficient funds");
         } else {
             Balance = Balance - amount;
@@ -73,7 +73,6 @@ class ATM {
 
         // The entered amount will be taken in the amount variable and will be added into the Balance property of our ATM class
          
-
         System.out.println("Enter the Amount: ");
         Scanner sc = new Scanner(System.in);
         float amount = sc.nextFloat();
