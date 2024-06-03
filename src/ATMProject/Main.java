@@ -87,6 +87,5 @@ public class Main {
 
         ATM obj = new ATM();
         obj.checkPin();
-
     }
 }
