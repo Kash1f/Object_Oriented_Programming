@@ -27,5 +27,7 @@ public class Student {
     
 }
 
+//Functions/Methods are always written outside main method
+
 //Static methods to do not require objects whenever we call them
 
