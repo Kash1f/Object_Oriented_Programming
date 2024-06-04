@@ -9,12 +9,15 @@ class Bank{
 
 class MCB extends Bank{
     //MCB has the RateOfInterest Method as it extends Bank Class
-    public void RateOfInterest(){  //change the body i.e override it
+
+    @Override //change the body i.e override it
+    public void RateOfInterest(){  
         System.out.println("Rate of Interest of MCB is 6%");
     }
 }
 
-class UBL{
+class UBL extends Bank{
+    @Override
     public void RateOfInterest(){
         System.out.println("Generally rate of interest of UBL is 8%");
 }
