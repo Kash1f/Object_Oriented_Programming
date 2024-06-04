@@ -13,7 +13,7 @@ class childClass extends parentClass{
         System.out.println("Child class");
     }
 }
-public class Main{
+public class Inheritance{
     public static void main(String[] args) {
         childClass child1 = new childClass();
         child1.display();
