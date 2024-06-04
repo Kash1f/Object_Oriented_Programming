@@ -34,3 +34,7 @@ public class Interface {
 
     }
 }
+
+//Here there is only one object for the Petrol bike and rest we are using the methods of interfaces such as Bike and ElectricBike
+
+//Aik object se we can access all the functionalities of the inherited classes that are being inherited into PetrolBike
