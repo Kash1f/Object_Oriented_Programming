@@ -23,7 +23,7 @@
 // public class MultiLevel {
 //     public static void main(String[] args) {
         
-//     //We can access attributes of class A % B by creating object of class C
+//     //We can access attributes of class A & B by creating object of class C
 
 //         C c = new C();
 //         B b = new B();

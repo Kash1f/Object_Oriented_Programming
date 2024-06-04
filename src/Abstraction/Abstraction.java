@@ -22,9 +22,8 @@ public class Abstraction {
     public static void main(String[] args) {
 
         Car c = new Car();
-        c.start();
-        
         Bike b = new Bike();
+        c.start();
         b.start();
 
 

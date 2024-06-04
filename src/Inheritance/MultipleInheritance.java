@@ -14,19 +14,18 @@ class B extends A{
 
 //class C is indirectly accessing class A
 class C extends B{
-  void run(){
+  void show(){
       System.out.println("Method C");
   }
 }
 
-
-
-public class Multiple {
-
+public class MultipleInheritance {
   public static void main(String[] args) {
 
-      C obj = new C();
-      obj.show();
+      C c = new C();
+      c.show();
       
   }
 }
+
+//solution for multiple inheritance is through interfaces, example question in interface file
