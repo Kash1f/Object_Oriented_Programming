@@ -21,11 +21,20 @@ class Student{
     public void setAge(int age){
         this.age = age;
     }
-    public void getRoll_No(int age){
+    public void setRoll_No(int age){
         this.roll_no = roll_no;
     }
 
 }
 public class Example2 {
+    public static void main(String[] args) {
+        Student obj = new Student();
+        obj.setName("Ahmed");
+        obj.setAge(24);
+        obj.setRoll_No(3);
+        System.out.println(obj.getName());
+        System.out.println(obj.getAge());
+        System.out.println(obj.getRoll_No());
+    }
     
 }
