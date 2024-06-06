@@ -7,11 +7,17 @@ abstract class Car{
     }
 }
 
-
+class Toyota extends Car{
+    public void fueltype(){
+        System.out.println("Diesel");
+    }
+}
 
 
 public class Example {
     public static void main(String[] args) {
-        
+        Toyota corolla = new Toyota();
+        corolla.fueltype();
+        corolla.color();
     }
 }
