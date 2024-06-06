@@ -17,9 +17,13 @@ class Students{
     Students(){
         System.out.println("Default Constructor");
     }
+
+    Students(int id, String name, int age){
+        System.out.println("Parameterized Constructor 2");
+    }
 }
 public class Parameterized {
     public static void main(String[] args) {
-        Students obj = new Students(4,19);
+        Students obj = new Students(4, "Kashif", 19);
     }
 }
