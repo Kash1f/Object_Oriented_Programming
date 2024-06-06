@@ -6,14 +6,14 @@ class Students{
     int id;
     int age;
 
-
+    //paramterized constructor as it is receiving parameters
     Students(int id, int age){
         this.id = id;
         this.age = age;
         System.out.println("Parameterized Constructor");
         
     }
-
+    //this is a default constructor
     Students(){
         System.out.println("Default Constructor");
     }
