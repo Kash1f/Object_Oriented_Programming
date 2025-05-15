@@ -1,7 +1,6 @@
 package Practice;
 
 public class Pen {
-    public static void main(String[] args) {
-        System.out.println("Hello World");
-    }
+    int x = 10;
+    char[] chars = {'a', 'b', 'c'};
 }
